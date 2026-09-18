@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" font-family="Georgia, Times, serif">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7EB6D9"/><stop offset="100%" stop-color="#E8F1F8"/></linearGradient>
+  <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2A6F8F"/><stop offset="100%" stop-color="#0B1F33"/></linearGradient>
+</defs>
+<rect width="1400" height="420" fill="url(#sky)"/>
+<rect y="420" width="1400" height="300" fill="url(#sea)"/>
+<ellipse cx="700" cy="430" rx="280" ry="70" fill="#3D6B3A"/>
+<rect x="692" y="140" width="16" height="290" fill="#C4A35A"/>
+<path d="M708 150 C 820 160, 860 190, 900 170 C 860 210, 820 200, 708 210 Z" fill="#C41E3A"/>
+<path d="M708 210 C 800 220, 850 250, 880 230 C 840 270, 800 255, 708 268 Z" fill="#9B1B30"/>
+<text x="700" y="40" font-size="22" fill="#0B1F33" text-anchor="middle" font-weight="700">V0 SCENE  ·  FLAG + WIND + ISLAND + OCEAN</text>
+<text x="700" y="70" font-size="15" fill="#0B6E99" text-anchor="middle">the smallest physically meaningful unit test of the design law</text>
+<text x="200" y="160" font-size="16" fill="#0B1F33" text-anchor="middle">WIND W(x,t)</text>
+<line x1="280" y1="160" x2="680" y2="180" stroke="#0B1F33" stroke-width="2"/>
+<text x="200" y="520" font-size="16" fill="#F8FAFC">OCEAN η, U</text>
+<text x="1100" y="200" font-size="16" fill="#0B1F33">optional camera</text>
+<rect x="1040" y="220" width="90" height="50" rx="6" fill="none" stroke="#0B6E99" stroke-width="3"/>
+<text x="700" y="620" font-size="16" fill="#F8FAFC" text-anchor="middle">Delete the camera. The flag still flaps.</text>
+<text x="700" y="660" font-size="14" fill="#D4A017" text-anchor="middle">found-300 extras supply cloth, mesh, DA, perception, VLAs — they do not replace x(t)</text>
+</svg>

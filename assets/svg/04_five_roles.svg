@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" font-family="Georgia, Times, serif">
+<rect width="1400" height="520" fill="#E8F1F8"/>
+<text x="700" y="40" font-size="22" fill="#0B1F33" text-anchor="middle" font-weight="700">FIVE ROLES THAT MUST NOT MERGE</text>
+<rect x="30" y="90" width="255" height="280" rx="10" fill="#0B1F33" stroke="#111827" stroke-width="3"/>
+<text x="157" y="160" font-size="18" fill="#F8FAFC" text-anchor="middle" font-weight="700">SIMULATOR</text>
+<text x="157" y="210" font-size="15" fill="#F8FAFC" text-anchor="middle" font-weight="500">owns x(t)</text>
+<text x="157" y="280" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="600">NOT allowed to be wrong</text>
+<rect x="305" y="90" width="255" height="280" rx="10" fill="#0B6E99" stroke="#111827" stroke-width="3"/>
+<text x="432" y="160" font-size="18" fill="#F8FAFC" text-anchor="middle" font-weight="700">SENSOR H</text>
+<text x="432" y="210" font-size="15" fill="#F8FAFC" text-anchor="middle" font-weight="500">y = H(x)+ν</text>
+<text x="432" y="280" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="600">allowed wrong</text>
+<rect x="580" y="90" width="255" height="280" rx="10" fill="#1F7A4D" stroke="#111827" stroke-width="3"/>
+<text x="707" y="160" font-size="18" fill="#F8FAFC" text-anchor="middle" font-weight="700">PERCEPTION</text>
+<text x="707" y="210" font-size="15" fill="#F8FAFC" text-anchor="middle" font-weight="500">estimate ŷ</text>
+<text x="707" y="280" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="600">allowed wrong</text>
+<rect x="855" y="90" width="255" height="280" rx="10" fill="#C45C26" stroke="#111827" stroke-width="3"/>
+<text x="982" y="160" font-size="18" fill="#F8FAFC" text-anchor="middle" font-weight="700">WORLD MODEL</text>
+<text x="982" y="210" font-size="15" fill="#F8FAFC" text-anchor="middle" font-weight="500">predictor x̂</text>
+<text x="982" y="280" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="600">allowed wrong</text>
+<rect x="1130" y="90" width="255" height="280" rx="10" fill="#D4A017" stroke="#111827" stroke-width="3"/>
+<text x="1257" y="160" font-size="18" fill="#0B1F33" text-anchor="middle" font-weight="700">PLANNER</text>
+<text x="1257" y="210" font-size="15" fill="#0B1F33" text-anchor="middle" font-weight="500">action u</text>
+<text x="1257" y="280" font-size="14" fill="#0B1F33" text-anchor="middle" font-weight="600">allowed wrong</text>
+<text x="700" y="420" font-size="16" fill="#B42318" text-anchor="middle" font-weight="600">If every camera, LiDAR and microphone is deleted, x(t) still evolves.</text>
+<text x="700" y="460" font-size="15" fill="#111827" text-anchor="middle" font-weight="500">That is the acceptance test for step 100.</text>
+</svg>

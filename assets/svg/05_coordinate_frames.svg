@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" font-family="Georgia, Times, serif">
+<rect width="1400" height="560" fill="#E8F1F8"/>
+<text x="700" y="40" font-size="22" fill="#0B1F33" text-anchor="middle" font-weight="700">COORDINATE FRAMES</text>
+<rect x="40" y="100" width="250" height="280" rx="10" fill="#0B1F33" stroke="#111827" stroke-width="2"/>
+<text x="165" y="180" font-size="20" fill="#F8FAFC" text-anchor="middle" font-weight="700">WGS84</text>
+<text x="165" y="230" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="500">Earth ellipsoid</text>
+<text x="165" y="290" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="500">GIS / Cesium</text>
+<rect x="310" y="100" width="250" height="280" rx="10" fill="#0B6E99" stroke="#111827" stroke-width="2"/>
+<text x="435" y="180" font-size="20" fill="#F8FAFC" text-anchor="middle" font-weight="700">ECEF</text>
+<text x="435" y="230" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="500">Earth center</text>
+<text x="435" y="290" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="500">global root</text>
+<rect x="580" y="100" width="250" height="280" rx="10" fill="#1F7A4D" stroke="#111827" stroke-width="2"/>
+<text x="705" y="180" font-size="20" fill="#F8FAFC" text-anchor="middle" font-weight="700">ENU tile</text>
+<text x="705" y="230" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="500">island origin</text>
+<text x="705" y="290" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="500">cloth, cars, robots</text>
+<rect x="850" y="100" width="250" height="280" rx="10" fill="#C45C26" stroke="#111827" stroke-width="2"/>
+<text x="975" y="180" font-size="20" fill="#F8FAFC" text-anchor="middle" font-weight="700">Body</text>
+<text x="975" y="230" font-size="14" fill="#F8FAFC" text-anchor="middle" font-weight="500">agent COM</text>
+<text x="975" y="290" font-size="14" fill="#D4A017" text-anchor="middle" font-weight="500">vehicle / arm</text>
+<rect x="1120" y="100" width="250" height="280" rx="10" fill="#D4A017" stroke="#111827" stroke-width="2"/>
+<text x="1245" y="180" font-size="20" fill="#0B1F33" text-anchor="middle" font-weight="700">Sensor</text>
+<text x="1245" y="230" font-size="14" fill="#0B1F33" text-anchor="middle" font-weight="500">mount</text>
+<text x="1245" y="290" font-size="14" fill="#0B1F33" text-anchor="middle" font-weight="500">H(x) only</text>
+<text x="700" y="440" font-size="16" fill="#111827" text-anchor="middle" font-weight="600">FACT: double-precision ECEF on a 10 m island wastes mantissa.</text>
+<text x="700" y="480" font-size="15" fill="#0B6E99" text-anchor="middle" font-weight="500">Physics runs in the local ENU tile. a ≈ 6 378 137 m (WGS84).</text>
+</svg>
